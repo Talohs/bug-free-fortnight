@@ -1,0 +1,50 @@
+.wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 3fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Aura Aura Exilus Exilus modpool"
+      "mod1 mod2 mod3 mod4 modpool"
+      "mod5 mod6 mod7 mod8 modpool"
+      "Arcane1 Arcane1 Arcane2 Arcane2 modpool"
+      "build build build build modpool"; 
+  }
+  .Aura { grid-area: Aura; 
+    place-self: center;    
+    }
+  .Exilus {
+    grid-area: Exilus;
+    place-self: center;
+  }
+  .mod1 { grid-area: mod1; 
+    place-self: center;
+    }
+  .mod2 { grid-area: mod2; 
+    place-self: center;
+    }
+  .mod3 { grid-area: mod3; 
+    place-self: center;
+    }
+  .mod4 { grid-area: mod4; 
+    place-self: center;
+    }
+  .mod5 { grid-area: mod5; 
+    place-self: center;
+    }
+  .mod6 { grid-area: mod6; 
+    place-self: center;
+    }
+  .mod7 { grid-area: mod7; 
+    place-self: center;
+    }
+  .mod8 { grid-area: mod8; 
+    place-self: center;    }
+  .Arcane1 { grid-area: Arcane1; 
+    place-self: center;
+    }
+  .Arcane2 { grid-area: Arcane2; 
+    place-self: center;
+    }
+  .build { grid-area: build; }
+  .modpool { grid-area: modpool; }
